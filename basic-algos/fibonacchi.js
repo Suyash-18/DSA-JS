@@ -18,3 +18,5 @@ var fibo = function (n) {
 let n = 7;
 
 console.log(fibo(n).toString());
+
+//Big-O = O(n)
