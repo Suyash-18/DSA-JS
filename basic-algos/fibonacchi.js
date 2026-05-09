@@ -14,9 +14,17 @@ var fibo = function (n) {
 
     return arr;
 }
+//Big-O = O(n)
 
-let n = 7;
+var nfibo = function(n){
+    if(n == 1 || n == 0){
+        return n;
+    }
+    return nfibo(n - 1) + nfibo(n - 2)
+}
+//Big-O = O(2^n)
+
+let n = 6;
 
 console.log(fibo(n).toString());
-
-//Big-O = O(n)
+console.log(nfibo(n).toString());
