@@ -11,6 +11,7 @@ arr.pop()
 arr.unshift(10);
 console.log(arr[0])
 arr.shift()
+arr.findIndex(2)
 console.log(arr[0])
 
 //Map, filter, reduce, concat, slice and splice
