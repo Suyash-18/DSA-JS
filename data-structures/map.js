@@ -6,3 +6,5 @@ console.log(map.size)
 for (const [key,value] of map) {
     console.log(`${key}: ${value}`)
 }
+map.set('a', map.get('a')+1)
+console.log(map.get('a'));
